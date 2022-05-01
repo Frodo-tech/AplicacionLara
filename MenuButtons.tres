@@ -1,0 +1,33 @@
+[gd_resource type="Theme" load_steps=4 format=2]
+
+[ext_resource path="res://new_styleboxflat.tres" type="StyleBox" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.211765, 0.658824, 0.439216, 1 )
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 50.0
+expand_margin_right = 50.0
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.532663, 0.71875, 0.285675, 1 )
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+expand_margin_left = 50.0
+expand_margin_right = 50.0
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
+[resource]
+Button/colors/font_color = Color( 0, 0, 0, 1 )
+Button/colors/font_color_hover = Color( 0, 0, 0, 1 )
+Button/colors/font_color_pressed = Color( 0, 0, 0, 1 )
+Button/styles/hover = SubResource( 1 )
+Button/styles/normal = ExtResource( 1 )
+Button/styles/pressed = SubResource( 2 )

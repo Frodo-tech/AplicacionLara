@@ -27,7 +27,7 @@ config/icon="res://icon.png"
 [display]
 
 window/size/width=720
-window/size/height=1280
+window/size/height=720
 window/energy_saving/keep_screen_on=false
 window/handheld/orientation="portrait"
 window/ios/hide_home_indicator=false
